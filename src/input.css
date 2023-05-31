@@ -2,3 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.flex_bc{
+  @apply flex justify-between items-center
+}
+
+.hover_light:hover{
+  @apply bg-dark text-text_light
+}
+.hover_dark:hover {
+  @apply dark:bg-light dark:text-dark
+}
+
+.navbar_nav a{
+  @apply flex justify-center items-center px-5 py-1 rounded-md transition-all ease-in-out
+}
